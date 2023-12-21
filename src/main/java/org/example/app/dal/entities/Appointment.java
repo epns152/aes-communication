@@ -1,6 +1,8 @@
 package org.example.app.dal.entities;
 import jakarta.persistence.*;
 import lombok.*;
+import org.example.app.dal.entities.abstractions.User;
+import org.example.app.dal.entities.enums.AppointmentStatus;
 
 import java.util.List;
 import java.util.Objects;
