@@ -7,7 +7,6 @@ import org.example.app.dal.entities.Citizen;
 @RequiredArgsConstructor
 @Getter
 @Setter
-@Builder
 @AllArgsConstructor
 public abstract class RequestToAES {
     @Id
