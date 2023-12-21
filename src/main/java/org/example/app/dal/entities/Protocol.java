@@ -2,6 +2,7 @@ package org.example.app.dal.entities;
 
 import jakarta.persistence.*;
 import lombok.*;
+import org.example.app.dal.entities.enums.ProtocolStatus;
 
 import java.util.Objects;
 import java.util.UUID;

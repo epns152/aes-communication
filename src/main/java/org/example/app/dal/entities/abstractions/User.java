@@ -1,4 +1,4 @@
-package org.example.app.dal.entities;
+package org.example.app.dal.entities.abstractions;
 
 import jakarta.persistence.*;
 import lombok.*;
