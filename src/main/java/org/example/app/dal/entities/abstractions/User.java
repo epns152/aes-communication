@@ -19,6 +19,8 @@ public abstract class User {
     private String login;
     @Column(name = "password", nullable = false)
     private String password;
+    @Column(name = "name")
+    private String name;
 
     @Override
     public boolean equals(Object o) {
