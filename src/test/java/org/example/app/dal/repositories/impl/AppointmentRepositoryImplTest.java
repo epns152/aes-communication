@@ -1,4 +1,4 @@
-package org.example.app.repositories.impl;
+package org.example.app.dal.repositories.impl;
 
 
 import jakarta.persistence.EntityManager;
