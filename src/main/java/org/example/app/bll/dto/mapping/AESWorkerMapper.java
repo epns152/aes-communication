@@ -8,7 +8,8 @@ public class AESWorkerMapper {
     public static AESWorkerDTO toDto(AESWorker aesWorker) {
         return new AESWorkerDTO(aesWorker.getId(),
                 aesWorker.getName(),
-                aesWorker.getLogin());
+                aesWorker.getLogin(),
+                aesWorker.getPassword());
     }
 
     public static AESWorker toEntity(AESWorkerDTO aesWorkerDTO) {
@@ -16,6 +17,7 @@ public class AESWorkerMapper {
         aesWorker.setId(aesWorkerDTO.getId());
         aesWorker.setName(aesWorkerDTO.getName());
         aesWorker.setLogin(aesWorkerDTO.getLogin());
+        aesWorker.setPassword(aesWorkerDTO.getPassword());
         return aesWorker;
     }
 }

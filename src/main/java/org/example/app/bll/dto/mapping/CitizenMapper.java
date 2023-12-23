@@ -7,7 +7,8 @@ public class CitizenMapper {
     public static CitizenDTO toDto(Citizen citizen) {
         return new CitizenDTO(citizen.getId(),
                 citizen.getName(),
-                citizen.getLogin());
+                citizen.getLogin(),
+                citizen.getPassword());
     }
 
     public static Citizen toEntity(CitizenDTO citizenDTO) {
@@ -15,6 +16,7 @@ public class CitizenMapper {
         citizen.setId(citizenDTO.getId());
         citizen.setName(citizenDTO.getName());
         citizen.setLogin(citizenDTO.getLogin());
+        citizen.setPassword(citizenDTO.getPassword());
         return citizen;
     }
 }
